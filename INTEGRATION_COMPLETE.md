@@ -190,7 +190,7 @@ ZK_PRET_HTTP_SERVER_HOST=localhost
 # Security Settings
 RATE_LIMIT_WINDOW_MS=900000
 RATE_LIMIT_MAX=100
-CORS_ORIGIN=http://localhost:3000
+CORS_ORIGIN=http://localhost:5173
 
 # Job Management
 ENABLE_ASYNC_JOBS=true

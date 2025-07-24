@@ -64,16 +64,16 @@ class AsyncJobManager {
       this.broadcastJobUpdate(job);
 
       logger.info(`Starting async job ${job.id}: ${job.toolName}`);
-      
+
       // Initial setup progress
       job.progress = 10;
       this.broadcastJobUpdate(job);
-      
+
       // Execute the actual tool with real-time progress
       const startTime = Date.now();
       const result = await zkToolExecutor.executeTool(job.toolName, job.parameters);
       const executionTime = Date.now() - startTime;
-      
+
       job.status = 'completed';
       job.result = {
         ...result,
@@ -91,7 +91,7 @@ class AsyncJobManager {
       job.status = 'failed';
       job.error = error instanceof Error ? error.message : 'Unknown error';
       job.endTime = new Date();
-      
+
       logger.error(`Async job ${job.id} failed:`, error);
     }
 
@@ -126,7 +126,7 @@ class AsyncJobManager {
   }
 
   getActiveJobs(): Job[] {
-    return Array.from(this.jobs.values()).filter(job => 
+    return Array.from(this.jobs.values()).filter(job =>
       job.status === 'pending' || job.status === 'running'
     );
   }
@@ -163,7 +163,7 @@ app.use(limiter);
 
 // CORS
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'http://localhost:3000',
+  origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
   credentials: true
 }));
 
@@ -174,10 +174,10 @@ app.use(express.urlencoded({ extended: true, limit: process.env.MAX_REQUEST_SIZE
 // API Key Authentication Middleware
 if (process.env.ZK_PRET_ENABLE_API_AUTH === 'true') {
   const API_KEY = process.env.ZK_PRET_API_KEY;
-  
+
   const requireApiKey = (req: express.Request, res: express.Response, next: express.NextFunction) => {
     const providedKey = req.headers['x-api-key'] || req.headers['authorization']?.replace('Bearer ', '');
-    
+
     if (!providedKey || providedKey !== API_KEY) {
       logger.warn('Unauthorized API access attempt', {
         ip: req.ip,
@@ -185,7 +185,7 @@ if (process.env.ZK_PRET_ENABLE_API_AUTH === 'true') {
         url: req.url,
         providedKey: providedKey ? '[REDACTED]' : 'none'
       });
-      
+
       return res.status(401).json({
         success: false,
         error: 'Unauthorized: Valid API key required',
@@ -193,10 +193,10 @@ if (process.env.ZK_PRET_ENABLE_API_AUTH === 'true') {
         server: 'zk-pret-integrated-server'
       });
     }
-    
+
     next();
   };
-  
+
   // Apply API key requirement to all tool execution endpoints
   app.use('/api/v1/tools', requireApiKey);
   logger.info('API key authentication enabled for tool endpoints');
@@ -218,7 +218,7 @@ app.use((req, res, next) => {
 // WebSocket connection handling
 wss.on('connection', (ws) => {
   logger.info('New WebSocket connection established');
-  
+
   ws.on('message', (message) => {
     try {
       const data = JSON.parse(message.toString());
@@ -245,7 +245,7 @@ wss.on('connection', (ws) => {
 app.get('/api/v1/health', async (req, res) => {
   try {
     const executorHealth = await zkToolExecutor.healthCheck();
-    
+
     return res.json({
       status: executorHealth.connected ? 'healthy' : 'degraded',
       timestamp: new Date().toISOString(),
@@ -276,7 +276,7 @@ app.get('/api/v1/health', async (req, res) => {
 app.get('/api/v1/tools', async (req, res) => {
   try {
     const tools = zkToolExecutor.getAvailableTools();
-    
+
     return res.json({
       success: true,
       tools,
@@ -304,10 +304,11 @@ app.get('/api/v1/tools', async (req, res) => {
 // SYNC EXECUTION - Execute tool immediately and return result
 app.post('/api/v1/tools/execute', async (req, res) => {
   const startTime = Date.now();
-  
+
   try {
     const { toolName, parameters } = req.body;
-    
+
+    console.log('======================================================', toolName, parameters);
     if (!toolName) {
       return res.status(400).json({
         success: false,
@@ -315,16 +316,16 @@ app.post('/api/v1/tools/execute', async (req, res) => {
         timestamp: new Date().toISOString()
       });
     }
-    
+
     logger.info('SYNC execution started', {
       toolName,
       parameters: JSON.stringify(parameters),
       mode: 'sync-integrated'
     });
-    
+
     const result = await zkToolExecutor.executeTool(toolName, parameters || {});
     const totalTime = Date.now() - startTime;
-    
+
     logger.info('SYNC execution completed', {
       toolName,
       success: result.success,
@@ -332,7 +333,7 @@ app.post('/api/v1/tools/execute', async (req, res) => {
       totalTime: `${totalTime}ms`,
       mode: 'sync-integrated'
     });
-    
+
     return res.json({
       success: result.success,
       toolName,
@@ -344,17 +345,17 @@ app.post('/api/v1/tools/execute', async (req, res) => {
       server: 'zk-pret-integrated-server',
       mode: 'sync'
     });
-    
+
   } catch (error) {
     const totalTime = Date.now() - startTime;
-    
+
     logger.error('SYNC execution failed', {
       toolName: req.body?.toolName,
       error: error instanceof Error ? error.message : String(error),
       totalTime: `${totalTime}ms`,
       mode: 'sync-integrated'
     });
-    
+
     return res.status(500).json({
       success: false,
       toolName: req.body?.toolName,
@@ -371,7 +372,7 @@ app.post('/api/v1/tools/execute', async (req, res) => {
 // ASYNC EXECUTION - Start job and return job ID
 app.post('/api/v1/tools/execute-async', async (req, res) => {
   if (process.env.ENABLE_ASYNC_JOBS === 'false') {
-    return res.status(400).json({ 
+    return res.status(400).json({
       success: false,
       error: 'Async jobs are disabled',
       message: 'Set ENABLE_ASYNC_JOBS=true to use async execution',
@@ -381,7 +382,7 @@ app.post('/api/v1/tools/execute-async', async (req, res) => {
 
   try {
     const { toolName, parameters, jobId } = req.body;
-    
+
     if (!toolName) {
       return res.status(400).json({
         success: false,
@@ -389,18 +390,18 @@ app.post('/api/v1/tools/execute-async', async (req, res) => {
         timestamp: new Date().toISOString()
       });
     }
-    
+
     const actualJobId = jobId || generateJobId();
-    
+
     logger.info('ASYNC execution started', {
       jobId: actualJobId,
       toolName,
       parameters: JSON.stringify(parameters),
       mode: 'async-integrated'
     });
-    
+
     const job = await jobManager.startJob(actualJobId, toolName, parameters || {});
-    
+
     return res.json({
       success: true,
       jobId: job.id,
@@ -413,7 +414,7 @@ app.post('/api/v1/tools/execute-async', async (req, res) => {
       websocketUrl: `ws://${ZK_PRET_HTTP_SERVER_HOST}:${ZK_PRET_HTTP_SERVER_PORT}`
     });
   } catch (error) {
-    return res.status(500).json({ 
+    return res.status(500).json({
       success: false,
       error: 'Failed to start async job',
       message: error instanceof Error ? error.message : 'Unknown error',
@@ -426,14 +427,14 @@ app.post('/api/v1/tools/execute-async', async (req, res) => {
 app.get('/api/v1/jobs/:jobId', (req, res) => {
   const job = jobManager.getJob(req.params.jobId);
   if (!job) {
-    return res.status(404).json({ 
+    return res.status(404).json({
       success: false,
       error: 'Job not found',
       jobId: req.params.jobId,
       timestamp: new Date().toISOString()
     });
   }
-  
+
   return res.json({
     success: true,
     job,
@@ -458,7 +459,7 @@ app.get('/api/v1/jobs', (req, res) => {
 
 app.delete('/api/v1/jobs/completed', (req, res) => {
   jobManager.clearCompletedJobs();
-  return res.json({ 
+  return res.json({
     success: true,
     message: 'Completed jobs cleared',
     timestamp: new Date().toISOString(),
@@ -472,7 +473,7 @@ app.post('/api/v1/tools/gleif', async (req, res) => {
   try {
     const parameters = req.body;
     const result = await zkToolExecutor.executeTool('get-GLEIF-verification-with-sign', parameters);
-    
+
     return res.json({
       success: result.success,
       toolName: 'get-GLEIF-verification-with-sign',
@@ -495,7 +496,7 @@ app.post('/api/v1/tools/corporate', async (req, res) => {
   try {
     const parameters = req.body;
     const result = await zkToolExecutor.executeTool('get-Corporate-Registration-verification-with-sign', parameters);
-    
+
     return res.json({
       success: result.success,
       toolName: 'get-Corporate-Registration-verification-with-sign',
@@ -518,7 +519,7 @@ app.post('/api/v1/tools/exim', async (req, res) => {
   try {
     const parameters = req.body;
     const result = await zkToolExecutor.executeTool('get-EXIM-verification-with-sign', parameters);
-    
+
     return res.json({
       success: result.success,
       toolName: 'get-EXIM-verification-with-sign',
@@ -541,12 +542,12 @@ app.post('/api/v1/tools/risk', async (req, res) => {
   try {
     const parameters = req.body;
     const toolName = parameters.riskType === 'advanced' ? 'get-RiskLiquidityAdvancedOptimMerkle-verification-with-sign' :
-                     parameters.riskType === 'basel3' ? 'get-RiskLiquidityBasel3Optim-Merkle-verification-with-sign' :
-                     parameters.riskType === 'stablecoin' ? 'get-StablecoinProofOfReservesRisk-verification-with-sign' :
-                     'get-RiskLiquidityAdvancedOptimMerkle-verification-with-sign';
-    
+      parameters.riskType === 'basel3' ? 'get-RiskLiquidityBasel3Optim-Merkle-verification-with-sign' :
+        parameters.riskType === 'stablecoin' ? 'get-StablecoinProofOfReservesRisk-verification-with-sign' :
+          'get-RiskLiquidityAdvancedOptimMerkle-verification-with-sign';
+
     const result = await zkToolExecutor.executeTool(toolName, parameters);
-    
+
     return res.json({
       success: result.success,
       toolName,
@@ -569,7 +570,7 @@ app.post('/api/v1/tools/risk', async (req, res) => {
 app.get('/api/v1/status', async (req, res) => {
   try {
     const executorHealth = await zkToolExecutor.healthCheck();
-    
+
     return res.json({
       server: 'zk-pret-integrated-server',
       version: '1.0.0',
@@ -618,7 +619,7 @@ app.use((error: any, req: express.Request, res: express.Response, next: express.
     url: req.url,
     method: req.method
   });
-  
+
   res.status(500).json({
     success: false,
     error: 'Internal server error',
@@ -643,12 +644,12 @@ app.use((req: express.Request, res: express.Response) => {
 const startServer = async () => {
   try {
     console.log('🚀 Starting ZK-PRET Integrated HTTP Server...');
-    
+
     // Initialize ZK Tool Executor with timeout protection
     console.log('⚡ Initializing ZK Tool Executor...');
     await zkToolExecutor.initialize();
     console.log('✅ ZK Tool Executor initialization completed');
-    
+
     server.listen(ZK_PRET_HTTP_SERVER_PORT, ZK_PRET_HTTP_SERVER_HOST, () => {
       logger.info(`🚀 ZK-PRET Integrated HTTP Server started successfully`);
       logger.info(`📡 Server URL: http://${ZK_PRET_HTTP_SERVER_HOST}:${ZK_PRET_HTTP_SERVER_PORT}`);
@@ -656,7 +657,7 @@ const startServer = async () => {
       logger.info(`📡 WebSocket URL: ws://${ZK_PRET_HTTP_SERVER_HOST}:${ZK_PRET_HTTP_SERVER_PORT}`);
       logger.info(`⚡ Features: Direct access to ZK-PRET backend tools via HTTP API`);
       logger.info(`🎯 Ready to process ZK-PRET tool requests`);
-      
+
       console.log('\n=== ZK-PRET INTEGRATED HTTP SERVER ENDPOINTS ===');
       console.log('🔍 HEALTH & INFO:');
       console.log(`GET  http://${ZK_PRET_HTTP_SERVER_HOST}:${ZK_PRET_HTTP_SERVER_PORT}/api/v1/health`);
@@ -676,7 +677,7 @@ const startServer = async () => {
       console.log('📡 WEBSOCKET:');
       console.log(`WS   ws://${ZK_PRET_HTTP_SERVER_HOST}:${ZK_PRET_HTTP_SERVER_PORT} (real-time async updates)`);
       console.log('=====================================\n');
-      
+
       console.log('🎯 INTEGRATION SUCCESS:');
       console.log('• Backend ZK-PRET tools are now accessible via HTTP API');
       console.log('• Sync:  POST /api/v1/tools/execute (wait for result)');
