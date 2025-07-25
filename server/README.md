@@ -66,7 +66,7 @@ ZK_PRET_HTTP_SERVER_HOST=0.0.0.0
 ENABLE_ASYNC_JOBS=true
 
 # CORS settings
-CORS_ORIGIN=http://localhost:5173
+CORS_ORIGIN=http://54.164.166.125
 ```
 
 ## 📝 Usage Examples
