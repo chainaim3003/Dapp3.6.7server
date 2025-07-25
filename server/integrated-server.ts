@@ -148,7 +148,7 @@ const wss = new WebSocketServer({ server });
 const jobManager = new AsyncJobManager(wss);
 
 const ZK_PRET_HTTP_SERVER_PORT = parseInt(process.env.ZK_PRET_HTTP_SERVER_PORT || '3001', 10);
-const ZK_PRET_HTTP_SERVER_HOST = process.env.ZK_PRET_HTTP_SERVER_HOST || 'localhost';
+const ZK_PRET_HTTP_SERVER_HOST = process.env.ZK_PRET_HTTP_SERVER_HOST || '0.0.0.0';
 
 // Security middleware
 app.use(helmet());

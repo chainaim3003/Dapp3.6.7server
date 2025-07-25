@@ -60,7 +60,7 @@ Copy `.env.server` to `.env` and modify as needed:
 ```env
 # Server Settings
 ZK_PRET_HTTP_SERVER_PORT=3001
-ZK_PRET_HTTP_SERVER_HOST=localhost
+ZK_PRET_HTTP_SERVER_HOST=0.0.0.0
 
 # Enable/disable async jobs
 ENABLE_ASYNC_JOBS=true
