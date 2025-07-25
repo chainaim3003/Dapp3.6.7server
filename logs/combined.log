@@ -4492,3 +4492,806 @@
 {"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-24T03:10:08.166Z"}
 {"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-24T03:10:08.177Z"}
 {"level":"info","message":"SIGINT received, shutting down gracefully","service":"zk-pret-integrated-server","timestamp":"2025-07-24T03:13:18.242Z"}
+{"level":"info","message":"Async job management enabled","service":"zk-pret-integrated-server","timestamp":"2025-07-25T00:59:29.420Z"}
+{"level":"info","message":"API key authentication enabled for tool endpoints","service":"zk-pret-integrated-server","timestamp":"2025-07-25T00:59:29.433Z"}
+{"level":"info","message":"Integrated ZK Tool Executor initialized successfully","service":"zk-pret-integrated-server","timestamp":"2025-07-25T00:59:29.447Z"}
+{"level":"info","message":"🚀 ZK-PRET Integrated HTTP Server started successfully","service":"zk-pret-integrated-server","timestamp":"2025-07-25T00:59:29.608Z"}
+{"level":"info","message":"📡 Server URL: http://localhost:3001","service":"zk-pret-integrated-server","timestamp":"2025-07-25T00:59:29.609Z"}
+{"level":"info","message":"🔄 Mode: Integrated (Backend + Server)","service":"zk-pret-integrated-server","timestamp":"2025-07-25T00:59:29.610Z"}
+{"level":"info","message":"📡 WebSocket URL: ws://localhost:3001","service":"zk-pret-integrated-server","timestamp":"2025-07-25T00:59:29.611Z"}
+{"level":"info","message":"⚡ Features: Direct access to ZK-PRET backend tools via HTTP API","service":"zk-pret-integrated-server","timestamp":"2025-07-25T00:59:29.611Z"}
+{"level":"info","message":"🎯 Ready to process ZK-PRET tool requests","service":"zk-pret-integrated-server","timestamp":"2025-07-25T00:59:29.611Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:01:55.233Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:01:55.363Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:01:55.438Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:01:55.484Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:02:21.059Z","url":"/api/v1/tools/execute-async","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"jobId":"job_1753405341062_893njfy24","level":"info","message":"ASYNC execution started","mode":"async-integrated","parameters":"{\"companyName\":\"SREE PALANI ANDAVAR AGROS PRIVATE LIMITED\",\"typeOfNet\":\"TESTNET\"}","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:02:21.062Z","toolName":"get-GLEIF-verification-with-sign"}
+{"level":"info","message":"Starting async job job_1753405341062_893njfy24: get-GLEIF-verification-with-sign","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:02:21.065Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:02:32.857Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:02:32.918Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:05:21.793Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:05:21.822Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:05:21.997Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:05:22.521Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:03.660Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:03.675Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:03.681Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:03.688Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:03.693Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:06.549Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:06.574Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:06.588Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:06.609Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:06.630Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:09:06.645Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:10:11.883Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:10:12.105Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"Async job job_1753405341062_893njfy24 completed successfully in 474851ms","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:10:15.916Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:11:03.212Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:11:03.225Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:11:25.224Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:11:25.264Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:11:55.225Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:11:55.342Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:12:26.257Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:12:26.296Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:12:29.859Z","url":"/api/v1/tools/execute-async","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"jobId":"job_1753405949861_be1uo2prn","level":"info","message":"ASYNC execution started","mode":"async-integrated","parameters":"{\"companyName\":\"SREE PALANI ANDAVAR AGROS PRIVATE LIMITED\",\"typeOfNet\":\"TESTNET\"}","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:12:29.862Z","toolName":"get-GLEIF-verification-with-sign"}
+{"level":"info","message":"Starting async job job_1753405949861_be1uo2prn: get-GLEIF-verification-with-sign","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:12:29.864Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:12:56.692Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:12:56.714Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"Async job job_1753405949861_be1uo2prn completed successfully in 150133ms","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:14:59.998Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:00.035Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:00.526Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:00.946Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:01.119Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:01.141Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:01.162Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:01.201Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:01.227Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:25.256Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:25.294Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:56.234Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:15:56.244Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:17:03.220Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:17:03.233Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:17:25.256Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:17:25.337Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:17:55.226Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:17:55.247Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:18:25.228Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:18:25.248Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:18:55.223Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:18:55.234Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:19:25.230Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:19:25.249Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:19:55.238Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:19:55.285Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:20:25.251Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:20:25.282Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:20:55.077Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:20:55.401Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:20:55.465Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:20:55.522Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:21:25.038Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:21:25.045Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:21:55.248Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:21:55.300Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:22:27.476Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:22:27.567Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:22:33.433Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:22:43.235Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:22:45.983Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:22:53.219Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:22:55.067Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:22:55.094Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:22:55.208Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:22:59.981Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:04.158Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:07.814Z","url":"/api/v1/tools/execute-async","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"jobId":"job_1753406587816_evxyhhai9","level":"info","message":"ASYNC execution started","mode":"async-integrated","parameters":"{\"companyName\":\"SREE PALANI ANDAVAR AGROS PRIVATE LIMITED\",\"typeOfNet\":\"TESTNET\"}","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:07.816Z","toolName":"get-GLEIF-verification-with-sign"}
+{"level":"info","message":"Starting async job job_1753406587816_evxyhhai9: get-GLEIF-verification-with-sign","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:07.821Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:14.497Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:14.503Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:14.703Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:23.854Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:51.387Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:51.415Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:51.463Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:51.476Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:57.618Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:57.638Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:57.685Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:57.811Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:23:57.822Z"}
+{"level":"info","message":"Async job job_1753406587816_evxyhhai9 completed successfully in 154168ms","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:41.991Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:41.996Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.026Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.046Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.064Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.079Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.094Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.111Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.187Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.190Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.206Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.228Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.246Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:42.251Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:47.219Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:55.030Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:55.042Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:55.085Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:25:55.091Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:26:00.098Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:26:25.033Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:26:25.048Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:26:25.093Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:26:25.110Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:26:30.103Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:26:55.040Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:26:55.074Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:26:55.093Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:26:55.095Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:27:00.196Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:27:25.214Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:27:25.231Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:27:25.323Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:27:25.326Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:27:31.200Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:27:55.035Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:27:55.073Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:27:55.107Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:27:55.109Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:00.577Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:04.111Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:04.115Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:04.138Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:04.173Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:05.146Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:05.157Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:05.165Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:05.173Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:10.174Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:10.187Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:11.770Z","url":"/api/v1/tools/execute-async","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"jobId":"job_1753406891771_6sihmw8ex","level":"info","message":"ASYNC execution started","mode":"async-integrated","parameters":"{\"companyName\":\"SREE PALANI ANDAVAR AGROS PRIVATE LIMITED\",\"typeOfNet\":\"TESTNET\"}","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:11.772Z","toolName":"get-GLEIF-verification-with-sign"}
+{"level":"info","message":"Starting async job job_1753406891771_6sihmw8ex: get-GLEIF-verification-with-sign","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:11.775Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:15.705Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:15.707Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:15.710Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:15.711Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:24.693Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:24.706Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:25.024Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:50.113Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:54.376Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:54.380Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:55.110Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:28:55.125Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:29:01.192Z"}
+{"level":"info","message":"Async job job_1753406891771_6sihmw8ex completed successfully in 181428ms","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.206Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.245Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.253Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.256Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.257Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.292Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.301Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.303Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.320Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.333Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.337Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.338Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.338Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.338Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.339Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.339Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.339Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.341Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.349Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.352Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.354Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.354Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.355Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.355Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.355Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.355Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.356Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.356Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.363Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.369Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.370Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.372Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.416Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.422Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.482Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.485Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:13.509Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:18.460Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:28.355Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:28.358Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:33.389Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:58.341Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:31:58.355Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:03.346Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:10.546Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:10.572Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:10.587Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:10.587Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:10.588Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.367Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.411Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.482Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.539Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.654Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.678Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.686Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.704Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.715Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.799Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.819Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.883Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:11.891Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:16.816Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:41.359Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:41.437Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:41.478Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:41.487Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:46.480Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:47.793Z","url":"/api/v1/tools/execute-async","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"jobId":"job_1753407167795_rxh3sdio0","level":"info","message":"ASYNC execution started","mode":"async-integrated","parameters":"{\"companyName\":\"SREE PALANI ANDAVAR AGROS PRIVATE LIMITED\",\"typeOfNet\":\"TESTNET\"}","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:47.796Z","toolName":"get-GLEIF-verification-with-sign"}
+{"level":"info","message":"Starting async job job_1753407167795_rxh3sdio0: get-GLEIF-verification-with-sign","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:47.797Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:52.378Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:52.383Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:52.385Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:32:52.386Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:33:00.245Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:33:00.256Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:33:19.949Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:33:19.974Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:33:20.016Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:33:20.021Z"}
+{"level":"info","message":"Async job job_1753407167795_rxh3sdio0 completed successfully in 135521ms","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.321Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.334Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.366Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.382Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.446Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.461Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.467Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.473Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.484Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.486Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.501Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.503Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.507Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.582Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.686Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:03.696Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:08.409Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:08.704Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:11.366Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:11.402Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:11.457Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:11.464Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:14.237Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:14.245Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:14.283Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:14.303Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:15.208Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:15.210Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:15.248Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:15.271Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:20.263Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:20.280Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.017Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.044Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.045Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.047Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.053Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.065Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.073Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.081Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.083Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.084Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.820Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.830Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.866Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.869Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:40.899Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:41.037Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:41.049Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:41.050Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:41.064Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:41.117Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:41.118Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:41.119Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:41.129Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:46.131Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:46.144Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:47.368Z","url":"/api/v1/tools/execute-async","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"jobId":"job_1753407347370_dz3p4yxo4","level":"info","message":"ASYNC execution started","mode":"async-integrated","parameters":"{\"companyName\":\"SREE PALANI ANDAVAR AGROS PRIVATE LIMITED\",\"typeOfNet\":\"TESTNET\"}","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:47.370Z","toolName":"get-GLEIF-verification-with-sign"}
+{"level":"info","message":"Starting async job job_1753407347370_dz3p4yxo4: get-GLEIF-verification-with-sign","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:47.371Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:52.294Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:52.298Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:52.300Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:52.315Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:35:52.392Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.442Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.447Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.448Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.449Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.452Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.465Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.479Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.501Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.533Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.551Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.565Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:00.567Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:23.285Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:24.963Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:24.968Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:24.969Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:24.973Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:24.980Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:24.984Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:24.996Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:25.013Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:29.385Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:29.392Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:29.414Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:36:29.428Z"}
+{"level":"info","message":"Async job job_1753407347370_dz3p4yxo4 completed successfully in 161528ms","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:28.900Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:28.965Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.056Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.079Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.091Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.098Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.127Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.149Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.163Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.165Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.196Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.199Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.218Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.229Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.231Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.252Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.277Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.282Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.367Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.397Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:29.413Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:34.050Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:34.407Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:40.836Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:40.841Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:40.862Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:40.864Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:46.194Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:50.511Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:50.514Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:50.526Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:50.548Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:55.536Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:38:55.552Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:07.692Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:07.696Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:07.731Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:07.762Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:10.854Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:10.862Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:10.899Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:10.910Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:12.741Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:15.555Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:15.562Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:15.594Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:15.612Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:20.623Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:40.855Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:40.894Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:40.943Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:40.945Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:39:45.955Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:40:10.840Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:40:10.877Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:40:10.933Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:40:10.949Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:40:15.947Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:40:40.855Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:40:40.877Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:40:40.942Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:40:40.943Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:40:45.961Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:41:10.849Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:41:10.867Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:41:10.953Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:41:10.957Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:41:15.970Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:41:40.853Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:41:40.871Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:41:40.936Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:41:40.947Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:41:45.959Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:42:10.840Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:42:10.851Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:42:10.883Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:42:10.896Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:42:15.898Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:42:41.207Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:42:41.217Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:42:41.351Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:42:41.353Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:42:47.204Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:43:11.201Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:43:11.264Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:43:11.266Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:43:17.204Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:43:40.899Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:43:40.910Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:43:45.920Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:44:10.897Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:44:10.899Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:44:15.877Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:44:41.255Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:44:41.258Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:44:47.194Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:45:11.272Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:45:11.290Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:45:17.206Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:46:03.238Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:46:03.240Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:46:09.200Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:47:03.269Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:47:03.271Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:47:09.194Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:48:03.235Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:48:03.291Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:48:03.419Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:48:03.422Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:48:09.201Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:49:03.229Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:49:03.303Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:49:03.359Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:49:03.363Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:49:09.202Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:50:03.216Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:50:03.290Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:50:03.354Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:50:03.359Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:50:09.207Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:51:03.221Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:51:03.386Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:51:03.538Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:51:03.570Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:51:09.199Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:52:03.227Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:52:03.270Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:52:03.330Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:52:03.336Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:52:09.210Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:53:03.228Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:53:03.312Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:53:03.446Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:53:03.460Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:53:09.206Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:54:03.217Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:54:03.254Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:54:03.345Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:54:03.353Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:54:09.206Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:55:03.214Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:55:03.258Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:55:03.343Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:55:03.349Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:55:09.198Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:56:03.213Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:56:03.240Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:56:03.346Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:56:03.349Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:56:09.203Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:57:03.231Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:57:03.251Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:57:03.359Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:57:03.362Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:57:09.209Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:58:03.200Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:58:03.235Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:58:03.306Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:58:03.313Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:58:09.199Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:59:03.210Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:59:03.230Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:59:03.297Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:59:03.309Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:59:09.199Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:59:56.604Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:59:56.643Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:59:56.684Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T01:59:56.689Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:01.691Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:10.841Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:10.884Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:10.921Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:10.923Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:12.057Z","url":"/api/v1/tools/execute-async","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"jobId":"job_1753408812058_ljblmeaxu","level":"info","message":"ASYNC execution started","mode":"async-integrated","parameters":"{\"companyName\":\"SREE PALANI ANDAVAR AGROS PRIVATE LIMITED\",\"typeOfNet\":\"TESTNET\"}","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:12.061Z","toolName":"get-GLEIF-verification-with-sign"}
+{"level":"info","message":"Starting async job job_1753408812058_ljblmeaxu: get-GLEIF-verification-with-sign","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:12.102Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:23.294Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:23.302Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:23.304Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:23.311Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:23.319Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:23.323Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:23.326Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:23.328Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:23.334Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:34.159Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:34.164Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:34.173Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:00:34.500Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:04.277Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:04.280Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:04.282Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:04.285Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:04.292Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.610Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.616Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.617Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.618Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.787Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.808Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.809Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.812Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.828Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.842Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:08.845Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:14.673Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:14.678Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:14.752Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:14.809Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:01:14.822Z"}
+{"level":"info","message":"Async job job_1753408812058_ljblmeaxu completed successfully in 245173ms","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:17.297Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:17.673Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:17.832Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:17.869Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:17.898Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:17.919Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.006Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.029Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.090Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.122Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.140Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.142Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.158Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.204Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.208Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.240Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.257Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.303Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.307Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:18.340Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:23.311Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:40.849Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:40.929Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:40.988Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:40.991Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:04:45.993Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:05:10.862Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:05:10.923Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:05:10.972Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:05:10.979Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:05:16.134Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:05:40.843Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:05:40.869Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:05:40.970Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:05:40.975Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:05:45.980Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:06:10.862Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:06:10.923Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:06:10.989Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:06:11.021Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:06:15.989Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:06:40.846Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:06:40.896Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:06:40.973Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:06:40.982Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:06:45.994Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:07:10.880Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:07:10.899Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:07:10.978Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:07:10.992Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:07:15.988Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:07:40.845Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:07:40.872Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:07:40.941Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:07:40.944Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:07:45.952Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:08:10.850Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:08:10.878Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:08:10.953Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:08:10.959Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:08:15.953Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:08:40.856Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:08:40.889Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:08:40.926Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:08:40.934Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:08:45.928Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:09:10.855Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:09:10.875Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:09:10.959Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:09:10.966Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:09:15.960Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:09:40.848Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:09:40.863Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:09:40.935Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:09:40.939Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:09:45.943Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:10:10.849Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:10:10.868Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:10:10.928Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:10:10.937Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:10:15.934Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:10:40.854Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:10:40.897Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:10:40.974Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:10:40.980Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:10:45.975Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:11:10.857Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:11:10.890Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:11:10.956Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:11:10.960Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:11:15.967Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:11:41.202Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:11:41.222Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:11:41.321Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:11:41.325Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:11:47.205Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:12:11.239Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:12:11.303Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:12:11.318Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:12:11.320Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:12:17.203Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:13:03.217Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:13:03.232Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:13:03.267Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:13:03.269Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:13:09.215Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:14:03.214Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:14:03.228Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:14:03.273Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:14:03.283Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:14:09.196Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:15:03.223Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:15:03.238Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:15:03.305Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:15:03.312Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:15:09.191Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:16:03.201Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:16:03.219Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:16:03.253Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:16:03.255Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:16:09.196Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:17:03.279Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:17:03.293Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:17:09.203Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:18:03.232Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:18:03.242Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:18:09.203Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:19:03.234Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:19:03.236Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:19:09.200Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:20:03.218Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:20:03.235Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:20:03.272Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:20:03.274Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:20:09.192Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:21:03.206Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:21:03.228Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:21:03.257Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:21:03.260Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:21:09.188Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:22:03.238Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:22:03.263Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:22:03.501Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:22:03.503Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:22:09.197Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:23:03.204Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:23:03.211Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:23:03.224Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:23:03.225Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:23:09.204Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:24:03.213Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:24:03.217Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:24:03.228Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:24:03.229Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:24:09.202Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:25:03.204Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:25:03.224Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:25:03.235Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:25:03.235Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:25:09.198Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:26:03.202Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:26:03.206Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:26:03.217Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:26:03.225Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:26:09.196Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:27:03.198Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:27:03.222Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:27:03.240Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:27:03.241Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:27:09.192Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:28:03.196Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:28:03.206Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:28:03.224Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:28:03.225Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:28:09.191Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:29:03.198Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:29:03.212Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:29:03.225Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:29:03.227Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:29:09.201Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:30:03.205Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:30:03.211Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:30:03.226Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:30:03.227Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:30:09.202Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:31:03.201Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:31:03.207Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:31:03.223Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:31:03.225Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:31:09.198Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:32:03.208Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:32:03.214Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:32:03.231Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:32:03.234Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:32:09.189Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:33:03.192Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:33:03.198Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:33:03.210Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:33:03.211Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:33:09.190Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:34:03.208Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:34:03.219Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:34:03.231Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:34:03.232Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:34:09.202Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:35:03.219Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:35:03.229Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:35:03.243Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:35:03.247Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:35:09.194Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:36:03.911Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:36:04.498Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:36:04.892Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:36:04.925Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:36:10.205Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:37:03.227Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:37:03.236Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:37:03.251Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:37:03.257Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:37:09.222Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:38:03.204Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:38:03.210Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:38:03.222Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:38:03.224Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:38:09.194Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:39:03.202Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:39:03.208Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:39:03.228Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:39:03.230Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:39:09.197Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:40:03.243Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:40:03.250Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:40:03.265Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:40:03.267Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:40:09.191Z"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:41:03.214Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:41:03.222Z","url":"/api/v1/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:41:03.243Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:41:03.244Z"}
+{"level":"info","message":"New WebSocket connection established","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:41:09.206Z"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:41:58.833Z"}
+{"level":"info","message":"WebSocket connection closed","service":"zk-pret-integrated-server","timestamp":"2025-07-25T02:42:05.595Z"}
