@@ -1,6 +1,6 @@
 import axios from 'axios';
 import * as dotenv from 'dotenv';
-dotenv.config();
+dotenv.config({ path: '.env.server' });
 
 /**
  * Enhanced GLEIF Utils with complete JSON printing and ZK optimization analysis
@@ -75,22 +75,22 @@ export async function fetchGLEIFCompanyDataWithFullDetails(companyName: string):
   // ✅ SOLUTION 2: Print specific sections with enhanced detail
   if (parsedData.data && parsedData.data.length > 0) {
     const record = parsedData.data[0];
-    
+
     console.log('\n📊 DETAILED RECORD ANALYSIS:');
     console.log('='.repeat(100));
-    
+
     console.log('\n🏢 BASIC RECORD INFO:');
     console.log(`Type: ${record.type}`);
     console.log(`ID (LEI): ${record.id}`);
-    
+
     console.log('\n📋 ATTRIBUTES SECTION (Complete Object):');
     console.log('─'.repeat(80));
     console.log(JSON.stringify(record.attributes, null, 2));
-    
+
     console.log('\n🔗 RELATIONSHIPS SECTION (Complete Object):');
     console.log('─'.repeat(80));
     console.log(JSON.stringify(record.relationships, null, 2));
-    
+
     console.log('\n🌐 LINKS SECTION (Complete Object):');
     console.log('─'.repeat(80));
     console.log(JSON.stringify(record.links, null, 2));
@@ -125,7 +125,7 @@ export async function fetchGLEIFCompanyDataWithFullDetails(companyName: string):
  */
 function analyzeGLEIFStructureForZK(record: any): void {
   console.log('🔬 ANALYZING DATA STRUCTURE FOR ZK OPTIMIZATION...\n');
-  
+
   const zkOptimizationSuggestions = {
     tier1Individual: [] as string[],
     tier2Grouped: {} as Record<string, string[]>,
@@ -137,7 +137,7 @@ function analyzeGLEIFStructureForZK(record: any): void {
   // Analyze attributes structure
   if (record.attributes) {
     console.log('📊 ATTRIBUTES STRUCTURE ANALYSIS:');
-    
+
     // Core LEI information
     if (record.attributes.lei) {
       zkOptimizationSuggestions.tier1Individual.push('attributes.lei');
@@ -148,13 +148,13 @@ function analyzeGLEIFStructureForZK(record: any): void {
     if (record.attributes.entity) {
       console.log('\n🏢 ENTITY DATA STRUCTURE:');
       const entity = record.attributes.entity;
-      
+
       // High-priority individual fields
       if (entity.legalName?.name) {
         zkOptimizationSuggestions.tier1Individual.push('entity.legalName.name');
         console.log(`  ✅ Legal Name: ${entity.legalName.name}`);
       }
-      
+
       if (entity.status) {
         zkOptimizationSuggestions.tier1Individual.push('entity.status');
         console.log(`  ✅ Status: ${entity.status}`);
@@ -170,13 +170,13 @@ function analyzeGLEIFStructureForZK(record: any): void {
         const addressFields = [];
         console.log('\n  📍 LEGAL ADDRESS DATA:');
         console.log(JSON.stringify(entity.legalAddress, null, 4));
-        
+
         if (entity.legalAddress.addressLines) addressFields.push('entity.legalAddress.addressLines');
         if (entity.legalAddress.city) addressFields.push('entity.legalAddress.city');
         if (entity.legalAddress.region) addressFields.push('entity.legalAddress.region');
         if (entity.legalAddress.country) addressFields.push('entity.legalAddress.country');
         if (entity.legalAddress.postalCode) addressFields.push('entity.legalAddress.postalCode');
-        
+
         if (addressFields.length > 0) {
           zkOptimizationSuggestions.tier2Grouped['legal_address_bundle'] = addressFields;
         }
@@ -187,13 +187,13 @@ function analyzeGLEIFStructureForZK(record: any): void {
         const hqFields = [];
         console.log('\n  🏢 HEADQUARTERS ADDRESS DATA:');
         console.log(JSON.stringify(entity.headquartersAddress, null, 4));
-        
+
         if (entity.headquartersAddress.addressLines) hqFields.push('entity.headquartersAddress.addressLines');
         if (entity.headquartersAddress.city) hqFields.push('entity.headquartersAddress.city');
         if (entity.headquartersAddress.region) hqFields.push('entity.headquartersAddress.region');
         if (entity.headquartersAddress.country) hqFields.push('entity.headquartersAddress.country');
         if (entity.headquartersAddress.postalCode) hqFields.push('entity.headquartersAddress.postalCode');
-        
+
         if (hqFields.length > 0) {
           zkOptimizationSuggestions.tier2Grouped['headquarters_address_bundle'] = hqFields;
         }
@@ -213,7 +213,7 @@ function analyzeGLEIFStructureForZK(record: any): void {
         businessFields.push('entity.subCategory');
         console.log(`  ✅ Sub Category: ${entity.subCategory}`);
       }
-      
+
       if (businessFields.length > 0) {
         zkOptimizationSuggestions.tier2Grouped['business_info_bundle'] = businessFields;
       }
@@ -225,21 +225,21 @@ function analyzeGLEIFStructureForZK(record: any): void {
         zkOptimizationSuggestions.tier2Grouped['other_names_bundle'] = ['entity.otherNames'];
       }
     }
-    
+
     // Registration information analysis
     if (record.attributes.registration) {
       console.log('\n📝 REGISTRATION DATA STRUCTURE:');
       console.log(JSON.stringify(record.attributes.registration, null, 2));
-      
+
       const registration = record.attributes.registration;
       const regFields = [];
-      
+
       if (registration.initialRegistrationDate) regFields.push('registration.initialRegistrationDate');
       if (registration.lastUpdateDate) regFields.push('registration.lastUpdateDate');
       if (registration.nextRenewalDate) regFields.push('registration.nextRenewalDate');
       if (registration.managingLou) regFields.push('registration.managingLou');
       if (registration.corroborationLevel) regFields.push('registration.corroborationLevel');
-      
+
       zkOptimizationSuggestions.tier3Metadata.push(...regFields);
     }
   }
@@ -248,7 +248,7 @@ function analyzeGLEIFStructureForZK(record: any): void {
   if (record.relationships) {
     console.log('\n🔗 RELATIONSHIPS STRUCTURE ANALYSIS:');
     console.log(JSON.stringify(record.relationships, null, 2));
-    
+
     Object.keys(record.relationships).forEach(key => {
       zkOptimizationSuggestions.relationshipData.push(`relationships.${key}`);
       console.log(`  📊 Relationship type: ${key}`);
@@ -270,13 +270,13 @@ function analyzeGLEIFStructureForZK(record: any): void {
 function generateZKOptimizationRecommendations(suggestions: any): void {
   console.log('\n🎯 ZK CIRCUIT OPTIMIZATION RECOMMENDATIONS:');
   console.log('='.repeat(80));
-  
+
   // Calculate totals
   const tier1Count = suggestions.tier1Individual.length;
   const tier2Count = Object.values(suggestions.tier2Grouped).flat().length;
   const tier3Count = suggestions.tier3Metadata.length;
   const totalExtractable = tier1Count + tier2Count + tier3Count;
-  
+
   console.log('\n✅ TIER 1 - Individual Fields (High Privacy, Core Compliance):');
   console.log('   💡 Use these for: Basic KYC, Core compliance verification');
   console.log('   🔒 Privacy Level: Maximum (selective disclosure)');
@@ -284,7 +284,7 @@ function generateZKOptimizationRecommendations(suggestions: any): void {
   suggestions.tier1Individual.forEach((field: string, index: number) => {
     console.log(`   ${index + 1}. ${field}`);
   });
-  
+
   console.log('\n✅ TIER 2 - Grouped Bundles (Efficiency Optimization):');
   console.log('   💡 Use these for: Enhanced KYC, Address verification');
   console.log('   🔒 Privacy Level: Medium (bundle revelation)');
@@ -296,7 +296,7 @@ function generateZKOptimizationRecommendations(suggestions: any): void {
       console.log(`      - ${field}`);
     });
   });
-  
+
   console.log('\n✅ TIER 3 - Metadata (Occasional Use):');
   console.log('   💡 Use these for: Audit trails, Regulatory reporting');
   console.log('   🔒 Privacy Level: Low impact');
@@ -304,7 +304,7 @@ function generateZKOptimizationRecommendations(suggestions: any): void {
   suggestions.tier3Metadata.forEach((field: string, index: number) => {
     console.log(`   ${index + 1}. ${field}`);
   });
-  
+
   console.log('\n✅ RELATIONSHIPS (Advanced Features):');
   console.log('   💡 Use these for: Corporate structure, Complex verifications');
   suggestions.relationshipData.forEach((rel: string, index: number) => {
@@ -314,17 +314,17 @@ function generateZKOptimizationRecommendations(suggestions: any): void {
   // Usage scenarios
   console.log('\n📊 OPTIMIZATION SCENARIOS:');
   console.log('─'.repeat(60));
-  
+
   console.log('\n🎯 Scenario 1 - Basic KYC (90% of use cases):');
   console.log('   Fields: name, lei, status (3 individual fields)');
   console.log('   Constraint cost: 3 × 2,006 = 6,018 constraints');
   console.log('   Privacy: Maximum');
-  
+
   console.log('\n🎯 Scenario 2 - Enhanced KYC (8% of use cases):');
   console.log('   Fields: name, lei, status + legal_address_bundle (4 fields)');
   console.log('   Constraint cost: 4 × 2,006 = 8,024 constraints');
   console.log('   Privacy: Good (reveals address components)');
-  
+
   console.log('\n🎯 Scenario 3 - Full Compliance (2% of use cases):');
   console.log('   Fields: All tier 1 + 2 bundles + key tier 3 (8+ fields)');
   console.log('   Constraint cost: 8 × 2,006 = 16,048 constraints');
@@ -404,7 +404,7 @@ export function extractGLEIFSummary(apiResponse: GLEIFAPIResponse): GLEIFDataSum
 
   const attributes = firstRecord?.attributes;
   const entity = attributes?.entity;
-  
+
   return {
     legalName: entity?.legalName?.name || '',
     lei: attributes?.lei || firstRecord?.id || '',
@@ -418,16 +418,16 @@ export function extractGLEIFSummary(apiResponse: GLEIFAPIResponse): GLEIFDataSum
 export function analyzeGLEIFCompliance(apiResponse: GLEIFAPIResponse, typeOfNet?: string): GLEIFComplianceAnalysis {
   const summary = extractGLEIFSummary(apiResponse);
   const issues: string[] = [];
-  
+
   // Check compliance criteria
   if (!summary.legalName) issues.push('Missing legal name');
   if (!summary.lei) issues.push('Missing LEI');
   if (summary.entityStatus !== 'ACTIVE') issues.push('Entity status is not ACTIVE');
   if (!summary.jurisdiction) issues.push('Missing jurisdiction');
-  
+
   const isCompliant = issues.length === 0;
   const complianceScore = isCompliant ? 100 : Math.max(0, 100 - (issues.length * 25));
-  
+
   return {
     isCompliant,
     complianceScore,
@@ -469,7 +469,7 @@ export class CompanyRegistry {
    */
   addOrUpdateCompany(lei: string, companyRecord: any, CompanyMerkleWitnessClass: any, PoseidonClass: any): any {
     let index: number;
-    
+
     if (this.companyRecords.has(lei)) {
       // Update existing company
       index = this.companyRecords.get(lei)!.index;
@@ -479,7 +479,7 @@ export class CompanyRegistry {
       index = this.nextIndex++;
       console.log(`➕ Adding new company at index ${index}: ${lei}`);
     }
-    
+
     // Calculate company record hash using the same method as the smart contract
     const companyHash = PoseidonClass.hash([
       companyRecord.leiHash,
@@ -491,13 +491,13 @@ export class CompanyRegistry {
       companyRecord.lastVerificationTime.value,
       companyRecord.firstVerificationTime.value
     ]);
-    
+
     // Update merkle tree
     this.companiesTree.setLeaf(BigInt(index), companyHash);
-    
+
     // Store company record
     this.companyRecords.set(lei, { record: companyRecord, index });
-    
+
     // Return witness for this company
     return new CompanyMerkleWitnessClass(this.companiesTree.getWitness(BigInt(index)));
   }
@@ -508,7 +508,7 @@ export class CompanyRegistry {
   getCompanyWitness(lei: string, CompanyMerkleWitnessClass: any): any | null {
     const entry = this.companyRecords.get(lei);
     if (!entry) return null;
-    
+
     return new CompanyMerkleWitnessClass(this.companiesTree.getWitness(BigInt(entry.index)));
   }
 
@@ -558,7 +558,7 @@ export function createComprehensiveGLEIFMerkleTree(
   fieldCount: number
 } {
   console.log('🌳 Creating comprehensive GLEIF Merkle tree...');
-  
+
   const tree = new MerkleTreeClass(MERKLE_TREE_HEIGHT);
   let fieldCount = 0;
   const extractedData: any = {};
@@ -566,7 +566,7 @@ export function createComprehensiveGLEIFMerkleTree(
   // Helper function to safely set field in tree
   function setTreeField(fieldName: string, value: string | undefined | any[] | null, index: number) {
     let safeValue: string;
-    
+
     // Handle different data types from GLEIF API
     if (value === null || value === undefined) {
       safeValue = '';
@@ -580,7 +580,7 @@ export function createComprehensiveGLEIFMerkleTree(
       // Handle strings and primitives
       safeValue = String(value);
     }
-    
+
     try {
       const circuitValue = CircuitStringClass.fromString(safeValue);
       const hash = circuitValue.hash();
@@ -606,11 +606,11 @@ export function createComprehensiveGLEIFMerkleTree(
     if (!firstRecord) {
       throw new Error('No GLEIF records found in API response');
     }
-    
+
     const attributes = firstRecord.attributes || {};
     const entity = attributes.entity || {};
     const registration = attributes.registration || {};
-    
+
     // Core compliance fields - Fixed mapping
     setTreeField('legalName', entity.legalName?.name, GLEIF_FIELD_INDICES.legalName);
     setTreeField('lei', attributes.lei, GLEIF_FIELD_INDICES.lei);
@@ -622,7 +622,7 @@ export function createComprehensiveGLEIFMerkleTree(
     setTreeField('legalCountry', entity.legalAddress?.country, GLEIF_FIELD_INDICES.legalCountry);
     setTreeField('registrationAuthority', entity.registeredAt?.id, GLEIF_FIELD_INDICES.registrationAuthority);
     setTreeField('entityCategory', entity.category, GLEIF_FIELD_INDICES.entityCategory);
-    
+
     // Additional GLEIF fields
     if (GLEIF_FIELD_INDICES.businessRegisterEntityId !== undefined) {
       setTreeField('businessRegisterEntityId', entity.registeredAs, GLEIF_FIELD_INDICES.businessRegisterEntityId);
@@ -639,7 +639,7 @@ export function createComprehensiveGLEIFMerkleTree(
     if (GLEIF_FIELD_INDICES.nextRenewalDate !== undefined) {
       setTreeField('nextRenewalDate', registration.nextRenewalDate, GLEIF_FIELD_INDICES.nextRenewalDate);
     }
-    
+
     // Required fields for ZK program witnesses (must be present even if empty)
     if (GLEIF_FIELD_INDICES.registration_status !== undefined) {
       setTreeField('registration_status', registration.status, GLEIF_FIELD_INDICES.registration_status);
@@ -650,7 +650,7 @@ export function createComprehensiveGLEIFMerkleTree(
     if (GLEIF_FIELD_INDICES.mic_codes !== undefined) {
       setTreeField('mic_codes', attributes.mic, GLEIF_FIELD_INDICES.mic_codes);
     }
-    
+
     // Additional fields from attributes
     if (GLEIF_FIELD_INDICES.conformityFlag !== undefined) {
       setTreeField('conformityFlag', attributes.conformityFlag, GLEIF_FIELD_INDICES.conformityFlag);
@@ -661,9 +661,9 @@ export function createComprehensiveGLEIFMerkleTree(
 
     console.log(`✅ Created Merkle tree with ${fieldCount} fields`);
     console.log(`🌳 Merkle root: ${tree.getRoot().toString()}`);
-    
+
     return { tree, extractedData, fieldCount };
-    
+
   } catch (error) {
     console.error('❌ Error creating Merkle tree:', error);
     throw error;
@@ -710,7 +710,7 @@ export function createCompanyRecord(
   isFirstVerification: boolean = true
 ): any {
   const currentTime = verificationTimestamp;
-  
+
   return new GLEIFCompanyRecordClass({
     leiHash: complianceData.lei.hash(),
     legalNameHash: complianceData.name.hash(),
